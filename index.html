@@ -1,0 +1,84 @@
+<!--homepage v2.0-personal
+    This homepage version is inspired by:
+-->
+<!--     __             _      __         
+        / /__________ _(_)____/ /_  __  __
+       / __/ ___/ __ `/ / ___/ __ \/ / / /
+      / /_/ /  / /_/ / / /__/ / / / /_/ / 
+ _____\__/_/   \__,_/_/\___/_/ /_/\__,_/  
+/_____/ https://github.com/tressley/_traichu
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        /* Image scaling based on font size */
+        .scale {
+            height: 1em;
+            width: 1em;
+        }
+    </style>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+        <title>homepage</title>
+    </head>
+    <body onload="traichu()">
+        <main>
+            <header>
+                <section id="date-time"><h2 class="sr-only">Date &amp; Time</h2></section>
+                <section id="weather"><h2 class="sr-only">Location &amp; Weather</h2></section>
+            </header>
+            <section id="traichu">
+                <h1 class="sr-only">/dj/</h1>
+                <aside><img src="dj.png"></aside>
+                <section id="search">
+                    <h2 class="sr-only">Search</h2>
+                    <form action="https://duckduckgo.com/" method="get">
+                        <input type="text" id="q" name="q" autofocus>
+                        <button class="sr-only" tabindex="-1">Search</button>
+                    </form>
+                </section>
+                <section id="bookmarks">
+                    <h2 class="sr-only">Bookmarks</h2>
+                    <ul>
+                        <li><a href="https://www.facebook.com/"><img src="images/facebook.svg" class="scale">&nbsp; Facebook</a></li>
+                        <li><a href="https://www.facebook.com/messages/"><img src="images/messenger.svg" class="scale">&nbsp; Messenger</a></li>
+                        <li><a href="https://instagram.com/"><img src="images/instagram.svg" class="scale">&nbsp; Instagram</a></li>
+                        <li><a href="https://twitter.com"><img src="images/twitter.svg" class="scale">&nbsp; Twitter</a></li>
+                        <li><a href="https://www.youtube.com"><img src="images/youtube.svg" class="scale">&nbsp; Youtube</a></li>
+                        <li><a href="https://www.reddit.com/"><img src="images/reddit.svg" class="scale">&nbsp; Reddit</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="https://mail.google.com/"><img src="images/envelope.png" class="scale">&nbsp; Mail</a></li>
+                        <li><a href="https://www.znrfak.ni.ac.rs/"><img src="images/toolbox.png" class="scale">&nbsp; FZNR</a></li>
+                        <li><a href="http://160.99.81.2:81/"><img src="images/card.png" class="scale">&nbsp; SIP</a></li>
+                        <li><a href="https://www.office.com/"><img src="images/office.svg" class="scale">&nbsp; Office</a></li>
+                        <li><a href="https://github.com/"><img src="images/github.svg" class="scale">&nbsp; Github</a></li>
+                        <li><a href="https://www.pravno-informacioni-sistem.rs/reg-overview"><img src="images/briefcase.png" class="scale">&nbsp; PIS</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="https://www.omgubuntu.co.uk/"><img src="images/newspaper.png" class="scale">&nbsp; omg!ubuntu</a></li>
+                        <li><a href="https://www.theverge.com/"><img src="images/antenna.png" class="scale">&nbsp; The Verge</a></li>
+                        <li><a href="https://news.ycombinator.com/"><img src="images/compass.png" class="scale">&nbsp; Hacker News</a></li>
+                        <li><a href="https://boards.4channel.org/g/"><img src="images/floppy.png" class="scale">&nbsp; Technology</a></li>
+                        <li><li><a href="https://rutracker.org/"><img src="images/link.png" class="scale">&nbsp; Trackers</a></li>
+                        <li><a href="https://www.1337x.to/"><img src="images/tickets.png" class="scale">&nbsp; 0 A.D.</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="https://maps.google.com/"><img src="images/maps.png" class="scale">&nbsp; Maps</a></li>
+                        <li><a href="https://drive.google.com/"><img src="images/drive.svg" class="scale">&nbsp; Drive</a></li>
+                        <li><a href="https://web2.0calc.com/"><img src="images/calculator.png" class="scale">&nbsp; Sci-Calc</a></li>
+                        <li><a href="https://scholar.google.com/"><img src="images/cap.png" class="scale">&nbsp; Scholar</a></li>
+                        <li><a href="https://kissanime.com.ru/"><img src="images/anger.png" class="scale">&nbsp; KissAnime</a></li>
+                        <li><a href="https://www.southparkstudios.com/seasons/south-park"><img src="images/school.png" class="scale">&nbsp; South Park</a></li>
+                    </ul>
+                </section>
+            </section>
+        </main>
+    </body>
+</html>
